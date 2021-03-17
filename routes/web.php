@@ -20,4 +20,8 @@ Route::get('/searchemployee', function () {
     return view('searchemployee');
 });
 
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
 
